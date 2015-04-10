@@ -1,7 +1,11 @@
 {
-  "name": "nodejs_news",
+  "name": "madgals_membership",
   "version": "0.0.1",
-  "dependencies": {},
+  "author": "madgals",
+  "description": "test module",
+  "dependencies": {
+
+  },
   "devDependencies": {
     "grunt": "*",
     "grunt-contrib-jshint": "*",
