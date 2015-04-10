@@ -1,0 +1,12 @@
+{
+  "name": "nodejs_news",
+  "version": "0.0.1",
+  "dependencies": {},
+  "devDependencies": {
+    "grunt": "*",
+    "grunt-contrib-jshint": "*",
+    "grunt-contrib-watch": "*",
+    "mocha": "^2.2.4",
+    "should": "^5.2.0"
+  }
+}
