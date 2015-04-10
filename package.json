@@ -1,12 +1,10 @@
 {
-  "name": "membership",
+  "name": "madgals_membership",
   "version": "0.0.1",
   "author": "madgals",
   "description": "test module",
   "dependencies": {
-    "bcrypt": "^0.8.2",
-    "bcrypt-nodejs": "0.0.3",
-    "secondthought": "0.0.4"
+
   },
   "devDependencies": {
     "grunt": "*",
