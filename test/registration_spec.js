@@ -46,4 +46,22 @@ describe('Registration', function () {
             regResult.user.signInCount.should.equal(1);
         });
     });
+    describe('an empty or null email', function () {
+        it("is not succesfull");
+        it("tells user email is required")
+    });
+    describe('empty or null password', function () {
+        it("is not succesfull");
+        it("tells user password is required")
+
+    });
+    describe('password and confirm missmatch', function () {
+        it("is not succesfull");
+        it("tells user passwords don't match");
+    });
+
+    describe('email already exists', function () {
+        it("is not succesfull");
+        it("tells user email already exists");
+    });
 });
